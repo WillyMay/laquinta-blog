@@ -1,14 +1,13 @@
-import React from 'react'
-import Title from './header/Title'
-import Menu from './header/Menu'
+import Title from "./header/Title";
+import Menu from "./header/Menu";
 
 function Header() {
   return (
     <header>
-        <Title />
-        <Menu />
+      <Title />
+      <Menu />
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
